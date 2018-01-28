@@ -1,0 +1,85 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+  width: 310px;
+  margin: 0 auto;
+  position: relative;
+}
+
+input[type="number"] {
+  border: none;
+  height: 30px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+#title {
+  font-weight: 700;
+}
+
+button:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  height: 40px;
+  width: 310px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  transition: transform 0.05s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#canvas {
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.zoombuttons{
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+  border-radius: 2px;
+  float: right;
+  margin: 2px;
+}
+
+#zoomStatus{
+  font-size: 10px;
+  float: right;
+  position: relative;
+  top: 6px;
+  right: 5px;
+}
+
+.lower{
+  display: block;
+  position: relative;
+  top: -15px;
+}
+
+#res{
+  margin-top: 5px;
+}
+
+.x{
+  width: 100px !important;
+  margin: 10px !important;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>sinus</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+
+    <span id="title">Calculate the area of ∫ (x1 x2) of x*sin(x)</span><br><br>
+    <canvas id="canvas" width="310" height="150"></canvas>
+
+
+    <button type="button" name="button" class="zoombuttons" onclick="zoomIn(this.innerHTML)">-</button>
+    <button type="button" name="button" class="zoombuttons" onclick="zoomIn(this.innerHTML)">+</button>
+    <span id="zoomStatus">3.0x</span>
+    <span id="output">Ready!</span><br><br>
+    <span class="lower">
+    x1:<input class="x" type="number" id="a" name="" value="5" placeholder="x1" oninput="calculate()">
+    x2: <input class="x" type="number" id="b" value="30" placeholder="x2" oninput="calculate()"><br><br>
+    Area Accuracy: <br> <input type="number" name="" value="1" placeholder="Accuracy" id="res" oninput="calculate()"><br>
+
+    </span>
+  </div>
+  <script type="text/javascript" src="code.js"></script>
+</body>
+
+</html>
